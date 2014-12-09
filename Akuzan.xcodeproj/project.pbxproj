@@ -14,6 +14,9 @@
 		7D9C7E461A37370D002D1D8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C7E451A37370D002D1D8F /* Images.xcassets */; };
 		7D9C7E491A37370D002D1D8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C7E471A37370D002D1D8F /* LaunchScreen.xib */; };
 		7D9C7E551A37370D002D1D8F /* AkuzanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C7E541A37370D002D1D8F /* AkuzanTests.swift */; };
+		7D9C7E611A373C44002D1D8F /* InBedIM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C7E601A373C44002D1D8F /* InBedIM.swift */; };
+		7D9C7E641A373C4E002D1D8F /* ProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C7E621A373C4E002D1D8F /* ProfilePicture.swift */; };
+		7D9C7E651A373C4E002D1D8F /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C7E631A373C4E002D1D8F /* user.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		7D9C7E4E1A37370D002D1D8F /* AkuzanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkuzanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9C7E531A37370D002D1D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D9C7E541A37370D002D1D8F /* AkuzanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkuzanTests.swift; sourceTree = "<group>"; };
+		7D9C7E601A373C44002D1D8F /* InBedIM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InBedIM.swift; sourceTree = "<group>"; };
+		7D9C7E621A373C4E002D1D8F /* ProfilePicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePicture.swift; sourceTree = "<group>"; };
+		7D9C7E631A373C4E002D1D8F /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		7D9C7E391A37370D002D1D8F /* Akuzan */ = {
 			isa = PBXGroup;
 			children = (
+				7D9C7E5F1A373C33002D1D8F /* Enums */,
+				7D9C7E5E1A373C2C002D1D8F /* Objects */,
 				7D9C7E3C1A37370D002D1D8F /* AppDelegate.swift */,
 				7D9C7E3E1A37370D002D1D8F /* FirstViewController.swift */,
 				7D9C7E401A37370D002D1D8F /* SecondViewController.swift */,
@@ -113,6 +121,23 @@
 				7D9C7E531A37370D002D1D8F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D9C7E5E1A373C2C002D1D8F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7D9C7E621A373C4E002D1D8F /* ProfilePicture.swift */,
+				7D9C7E631A373C4E002D1D8F /* user.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		7D9C7E5F1A373C33002D1D8F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				7D9C7E601A373C44002D1D8F /* InBedIM.swift */,
+			);
+			name = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9C7E611A373C44002D1D8F /* InBedIM.swift in Sources */,
 				7D9C7E411A37370D002D1D8F /* SecondViewController.swift in Sources */,
+				7D9C7E651A373C4E002D1D8F /* user.swift in Sources */,
+				7D9C7E641A373C4E002D1D8F /* ProfilePicture.swift in Sources */,
 				7D9C7E3D1A37370D002D1D8F /* AppDelegate.swift in Sources */,
 				7D9C7E3F1A37370D002D1D8F /* FirstViewController.swift in Sources */,
 			);
@@ -411,6 +439,7 @@
 				7D9C7E5A1A37370D002D1D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D9C7E5B1A37370D002D1D8F /* Build configuration list for PBXNativeTarget "AkuzanTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +448,7 @@
 				7D9C7E5D1A37370D002D1D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
